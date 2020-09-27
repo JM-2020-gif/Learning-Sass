@@ -1,0 +1,37 @@
+//7.Extend/Inheritance
+//This is one of the most useful features of Sass. Using @extend lets you share a set of CSS properties from one selector to another. It helps keep your Sass very DRY. 
+%alert-normal {
+    border: 1px solid gray;
+    background: #eee;
+    color: gray;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.definition {
+    @extend %alert-normal;
+
+}
+
+.definition-nesting {
+    @extend %alert-normal;
+    color: blueviolet;
+    border-color: orange;
+}
+
+.definition-modules {
+    @extend %alert-normal;
+    color: green;
+    border-color: greenyellow;
+}
+
+.definition-mixins {
+    @extend %alert-normal;
+
+}
+
+.definition-inheritance {
+    @extend %alert-normal;
+
+}

@@ -1,0 +1,37 @@
+//3.VARIABLES:
+//Store information. You can store things like colors, font stacks, or any CSS value you think you'll want to reuse. uses the ($) symbol to make something a variable.
+$fonts-typical: sans-serif,
+Helvetica,
+Arial;
+$color-background: #ccc;
+$color-fonts: rgb(32, 9, 59);
+
+//4.Color Palette: 
+//Sass colors can be written as hex codes (#f2ece4 or #b37399aa), CSS color names (midnightblue, transparent), or the functions rgb(), rgba(), hsl(), and hsla(). 
+//Sass has built-in support for color values
+$color-secondary:rgb(95, 10, 10);
+$color-palette1:#ffd5cd;
+$color-palette2:#efbbcf;
+$color-palette3:#C3AED6;
+$color-palette4:#8675a9;
+$color-dark:#212121;
+$light-color:#f6f6f6;
+
+
+body {
+    background-color: $color-background;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+
+h1 {
+    color: $color-fonts;
+    font-family: $fonts-typical;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    color: $color-secondary;
+}

@@ -1,0 +1,11 @@
+//In sass you can comment as you would in a programming language using (//)
+
+//1.PARTIALS: Great way to find easier your code.
+//You can create partial Sass files: A partial is a Sass file named with a leading underscore. these files  must import into the main sass file with the rule @
+
+//2. MODULES: You don't have to write all your Sass in a single file. You can split . This rule loads another Sass file as a module, which means you can refer to its variables, mixins, and functions in your Sass file with a namespace based on the filename, also include the CSS in your compiled output*/
+
+@import "variables";
+@import "nesting";
+@import "mixins";
+@import "inheritance";

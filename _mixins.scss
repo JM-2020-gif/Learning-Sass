@@ -1,0 +1,17 @@
+// 6.MIXINS
+//Lets you make groups of CSS declarations that you want to reuse throughout your site. You can use them as many times as you want
+@mixin createBorders ($color, $size, $shadow) {
+    border: $size solid $color;
+    border-radius: $size;
+    box_shadow: 0px 0px $size $shadow;
+}
+
+.box {
+    @include createBorders(red, 10px, black);
+}
+
+.list {
+    background: $color-palette4;
+    width: 500px;
+    @include createBorders(green, 5px, yellow);
+}

@@ -1,0 +1,29 @@
+//5.NEXTING:
+//Sass let you nest your CSS selectors in a way that follows the same visual hierarchy of your HTML.
+//Here how it would be written in css:
+
+.box {
+    border: 1px solid $color-dark;
+    width: 600px;
+    margin: 0px auto;
+    text-align: justify;
+    background-color: $light-color;
+    padding: 10px;
+
+    h1 {
+        color: $color-palette4;
+    }
+
+    p {
+        color: $color-palette4;
+    }
+
+    .info {
+        font-size: 20px;
+
+        .creator {
+            font-size: 30px;
+            color: $color-secondary;
+        }
+    }
+}
