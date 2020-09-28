@@ -1,7 +1,7 @@
 ## Learning with SASS
 
 _In this assignment I present an example major features of SASS's. It really is a nice tool for organizing and simplifying your code.
-some of the functions we can do with Sass are Nesting_
+some of the functions we can do with Sass are:
 
 1. Partials
 2. Modules
